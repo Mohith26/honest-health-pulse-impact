@@ -1,0 +1,6 @@
+{
+  "name": "honest-health-pulse-impact",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test test/impact.test.mjs", "generate": "node scripts/generate.mjs" }
+}

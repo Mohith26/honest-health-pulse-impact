@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PULSE · Post-discharge follow-up · Honest Health (concept)</title>
+<meta name="description" content="Unofficial concept demo: rank post-discharge follow-up calls by readmissions avoided, not by risk.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-inner">
+    <a class="brand" href="#worklist"><img src="assets/honest-health-logo.png" alt="Honest Health" width="218" height="44"><span class="product">PULSE</span></a>
+    <nav class="mainnav" id="nav">
+      <a href="#worklist" data-view="worklist">Worklist</a>
+      <a href="#impact" data-view="impact">Impact</a>
+      <a href="#calibration" data-view="calibration">Calibration</a>
+      <a href="#method" data-view="method">Method</a>
+    </nav>
+    <div class="top-right">
+      <label class="market"><span>Partner</span>
+        <select id="market"><option value="all">All partners</option><option value="0">Cascade Valley Health · West</option><option value="1">Lakeshore Health Partners · Midwest</option><option value="2">Mohawk Regional Health · East</option></select>
+      </label>
+      <button class="btn blue" id="export">Export</button>
+    </div>
+  </div>
+</header>
+<main class="wrap" id="app"></main>
+<footer class="foot"><div class="foot-inner">Unofficial concept demo by Mohith Gajjela. Not affiliated with Honest Health. Synthetic data; no patient information.</div></footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>
